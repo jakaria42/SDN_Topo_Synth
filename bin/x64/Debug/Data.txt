@@ -1,0 +1,354 @@
+***********************************
+Microsoft.Z3.BoolExpr[]
+We have no solution
+Required time: 6078.515
+
+
+***********************************
+1: We have a solution
+(:assert-lower        24
+ :assert-upper        46
+ :binary-propagations 117
+ :bound-prop          16
+ :conflicts           5
+ :decisions           18
+ :del-clause          27
+ :eliminated-vars     3399
+ :final-checks        1
+ :max-memory          4.09
+ :memory              3.78
+ :mk-bool-var         43
+ :mk-clause           27
+ :num-allocs          14931571
+ :pivots              5
+ :propagations        130
+ :rlimit-count        68264)
+
+Router ID	Is Deployed?
+40	True	1
+41	False	0
+42	True	1
+43	True	1
+44	True	1
+45	True	1
+46	True	1
+47	True	1
+48	True	1
+49	True	1
+50	True	1
+51	True	1
+52	True	1
+53	True	1
+54	False	0
+55	False	0
+56	False	0
+57	True	1
+All existing and deployed links:
+Src	Dest	Status	New
+1	40	True	False
+2	40	True	False
+3	41	True	False
+4	42	True	False
+5	42	True	False
+6	42	True	False
+7	43	True	False
+8	43	True	False
+9	44	True	False
+10	44	True	False
+11	44	True	False
+12	45	True	False
+13	45	True	False
+14	46	True	False
+15	46	True	False
+16	47	True	False
+17	47	True	False
+18	48	True	False
+19	48	True	False
+20	49	True	False
+21	49	True	False
+22	50	True	False
+23	51	True	False
+24	51	True	False
+25	52	True	False
+26	52	True	False
+27	40	True	False
+28	41	True	False
+29	42	True	False
+30	43	True	False
+31	44	True	False
+32	45	True	False
+33	46	True	False
+34	47	True	False
+35	48	True	False
+36	49	True	False
+37	50	True	False
+38	51	True	False
+39	52	True	False
+40	1	True	False
+40	2	True	False
+40	27	True	False
+40	44	True	False
+41	3	True	False
+41	28	True	False
+41	57	True	False
+42	4	True	False
+42	5	True	False
+42	6	True	False
+42	29	True	False
+42	54	True	False
+43	7	True	False
+43	8	True	False
+43	30	True	False
+43	53	True	False
+44	9	True	False
+44	10	True	False
+44	11	True	False
+44	31	True	False
+44	40	True	False
+44	53	True	False
+44	55	True	True
+44	57	True	False
+45	12	True	False
+45	13	True	False
+45	32	True	False
+45	47	True	True
+45	57	True	False
+46	14	True	False
+46	15	True	False
+46	33	True	False
+46	54	True	False
+47	16	True	False
+47	17	True	False
+47	34	True	False
+47	45	True	True
+47	54	True	False
+47	57	True	True
+48	18	True	False
+48	19	True	False
+48	35	True	False
+48	53	True	True
+48	55	True	False
+48	57	True	False
+49	20	True	False
+49	21	True	False
+49	36	True	False
+49	55	True	False
+50	22	True	False
+50	37	True	False
+50	56	True	False
+51	23	True	False
+51	24	True	False
+51	38	True	False
+51	56	True	False
+51	57	True	False
+52	25	True	False
+52	26	True	False
+52	39	True	False
+52	56	True	False
+52	57	True	True
+53	43	True	False
+53	44	True	False
+53	48	True	True
+53	55	True	False
+54	42	True	False
+54	46	True	False
+54	47	True	False
+54	57	True	False
+55	44	True	True
+55	48	True	False
+55	49	True	False
+55	53	True	False
+55	57	True	True
+56	50	True	False
+56	51	True	False
+56	52	True	False
+57	41	True	False
+57	44	True	False
+57	45	True	False
+57	47	True	True
+57	48	True	False
+57	51	True	False
+57	52	True	True
+57	54	True	False
+57	55	True	True
+57	58	True	False
+58	57	True	False
+***********************************
+
+Required time: 6160.4658
+
+
+***********************************
+1: We have a solution
+(:assert-lower        24
+ :assert-upper        46
+ :binary-propagations 117
+ :bound-prop          16
+ :conflicts           5
+ :decisions           18
+ :del-clause          27
+ :eliminated-vars     3399
+ :final-checks        1
+ :max-memory          4.09
+ :memory              3.78
+ :mk-bool-var         43
+ :mk-clause           27
+ :num-allocs          14931571
+ :pivots              5
+ :propagations        130
+ :rlimit-count        68264)
+
+Router ID	Is Deployed?
+40	True	1
+41	False	0
+42	True	1
+43	True	1
+44	True	1
+45	True	1
+46	True	1
+47	True	1
+48	True	1
+49	True	1
+50	True	1
+51	True	1
+52	True	1
+53	True	1
+54	False	0
+55	False	0
+56	False	0
+57	True	1
+All existing and deployed links:
+Src	Dest	Status	New
+1	40	True	False
+2	40	True	False
+3	41	True	False
+4	42	True	False
+5	42	True	False
+6	42	True	False
+7	43	True	False
+8	43	True	False
+9	44	True	False
+10	44	True	False
+11	44	True	False
+12	45	True	False
+13	45	True	False
+14	46	True	False
+15	46	True	False
+16	47	True	False
+17	47	True	False
+18	48	True	False
+19	48	True	False
+20	49	True	False
+21	49	True	False
+22	50	True	False
+23	51	True	False
+24	51	True	False
+25	52	True	False
+26	52	True	False
+27	40	True	False
+28	41	True	False
+29	42	True	False
+30	43	True	False
+31	44	True	False
+32	45	True	False
+33	46	True	False
+34	47	True	False
+35	48	True	False
+36	49	True	False
+37	50	True	False
+38	51	True	False
+39	52	True	False
+40	1	True	False
+40	2	True	False
+40	27	True	False
+40	44	True	False
+41	3	True	False
+41	28	True	False
+41	57	True	False
+42	4	True	False
+42	5	True	False
+42	6	True	False
+42	29	True	False
+42	54	True	False
+43	7	True	False
+43	8	True	False
+43	30	True	False
+43	53	True	False
+44	9	True	False
+44	10	True	False
+44	11	True	False
+44	31	True	False
+44	40	True	False
+44	53	True	False
+44	55	True	True
+44	57	True	False
+45	12	True	False
+45	13	True	False
+45	32	True	False
+45	47	True	True
+45	57	True	False
+46	14	True	False
+46	15	True	False
+46	33	True	False
+46	54	True	False
+47	16	True	False
+47	17	True	False
+47	34	True	False
+47	45	True	True
+47	54	True	False
+47	57	True	True
+48	18	True	False
+48	19	True	False
+48	35	True	False
+48	53	True	True
+48	55	True	False
+48	57	True	False
+49	20	True	False
+49	21	True	False
+49	36	True	False
+49	55	True	False
+50	22	True	False
+50	37	True	False
+50	56	True	False
+51	23	True	False
+51	24	True	False
+51	38	True	False
+51	56	True	False
+51	57	True	False
+52	25	True	False
+52	26	True	False
+52	39	True	False
+52	56	True	False
+52	57	True	True
+53	43	True	False
+53	44	True	False
+53	48	True	True
+53	55	True	False
+54	42	True	False
+54	46	True	False
+54	47	True	False
+54	57	True	False
+55	44	True	True
+55	48	True	False
+55	49	True	False
+55	53	True	False
+55	57	True	True
+56	50	True	False
+56	51	True	False
+56	52	True	False
+57	41	True	False
+57	44	True	False
+57	45	True	False
+57	47	True	True
+57	48	True	False
+57	51	True	False
+57	52	True	True
+57	54	True	False
+57	55	True	True
+57	58	True	False
+58	57	True	False
+***********************************
+
+Required time: 2882.0205
+
+

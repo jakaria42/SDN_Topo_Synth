@@ -1,0 +1,105 @@
+# Topology
+# Number of IEDs (1-26), RTUs (27-39) and Routers (40-57) (1 MTU (58) is assumed)
+26 13 18
+
+# IED generated data rate (Gbps)
+2 1 1 2 2 3 4 1 2 1 1 2 2 3 4 1 2 1 1 2 2 3 4 1 3 4
+
+# Communication Path (among the IEDs, the RTUs, and the MTU)
+# Assuming Bandwidth is provided.
+57
+1 40 5
+2 40 5 
+27 40 10 
+3 41 10 
+28 41 10
+4 42 5 
+5 42 5
+6 42 5
+29 42 10
+7 43 5
+8 43 5
+30 43 10
+9 44 5
+10 44 5
+11 44 5
+31 44 5
+12 45 10
+13 45 10
+32 45 10
+14 46 5
+15 46 5
+33 46 10
+16 47 5
+17 47 5
+34 47 10
+18 48 5
+19 48 5
+35 48 10
+20 49 10
+21 49 5
+36 49 10
+22 50 5
+37 50 10
+23 51 5
+24 51 5
+38 51 10
+25 52 10
+26 52 5
+39 52 10
+40 57 10
+41 57 10
+45 57 10
+51 57 10
+48 57 10
+54 57 10
+43 53 10
+44 53 10
+42 54 10
+46 54 10
+47 54 10
+53 55 10
+48 55 10
+49 55 10
+50 56 10
+51 56 10
+52 56 10
+57 58 10
+
+#Possible new links
+3
+55 57 10
+40 53 10
+48 53 10
+
+#Threat vectors
+4
+1 4
+1 6 8
+2 4 8
+20 22 24
+
+#Current SDN router IDs
+#2
+#48 56
+
+#Available SDN routers
+6
+
+#Avg cost of SDN routers
+50
+
+#Avg cost of links
+20
+
+#Available budget
+1000
+
+#Number of VLANs
+3
+1 2 4 9
+5 6
+10 11 23
+
+#Expected VLAN percentage
+75
