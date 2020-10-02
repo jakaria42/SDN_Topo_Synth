@@ -1,0 +1,39 @@
+int j = 0;
+for (int i = MAX_PATH_LEN-1; i >=0; i--)
+{
+	if (path1[i] != 0)
+	{
+		revPath1[j] = path1[i];
+		j++;
+	}
+}
+
+MAX_PATH_LEN = 5
+40
+57
+58
+0
+0
+
+58
+57
+40
+0
+0
+
+bFoundFork = false;
+for (int m = 0; m < MAX_PATH_LEN; m++)
+{
+	if (path1[m] != path2[m])
+	{
+		bFoundFork = true;
+		// Assert SDN switch.
+		//break;
+	}
+	
+	if (bFoundFork && path1[m] == path2[m])
+	{
+		// Assert SDN switch at next join.
+		break;
+	}
+}
